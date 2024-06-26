@@ -1,7 +1,73 @@
 /* For information on how to create your own theme, please see:
 http://ionicframework.com/docs/theming/ */
 
+/* colors */
+:root {
+    --color-primary: #b2abf2;
+    --color-secondary: #89043d;
+    --color-tertiary: #2fe6de;
+    --color-quaternary: #1c3041;
+    --color-background: #18f2b2;
+}
+
+body{
+    background-color: var(--color-background);
+    color: var(--color-quaternary);
+}
+
+/* fonts */
+@font-face {
+    font-family: 'Amatic SC';
+    src: url('../assets/fonts/AmaticSC-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Amatic SC';
+    src: url('../assets/fonts/AmaticSC-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../assets/fonts/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display Italic';
+    src: url('../assets/fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Playwrite DE Grund';
+    src: url('../assets/fonts/PlaywriteDEGrund-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Playfair Display';
+    font-size: 40px;
+
+}
+
 h4 {
     font-size: 8px;
-    color: #fff;
+}
+
+/* Buttons */
+button {
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+    font-family: 'playfair display';
+    background-color: unset;
+    text-transform: uppercase;
+    border: var(--color-secondary) 1px solid;
+    border-radius: 10px;
 }
