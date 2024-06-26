@@ -31,4 +31,4 @@ npm-debug.log*
 /plugins
 /www
 
-src/configs/firebase-config.js
+src/configs/firebase.js
